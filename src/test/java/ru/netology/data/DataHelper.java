@@ -17,7 +17,6 @@ public class DataHelper {
     }
 
     public static AuthInfo getIncorrectPass() {
-//        Faker faker = new Faker();
         return new AuthInfo("vasya", "12345");
     }
 
